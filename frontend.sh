@@ -10,4 +10,4 @@ unzip /tmp/frontend.zip
 cp frontend.config /etc/nginx/default.d/expense.conf
 
 systemctl enable nginx
-systemctl start nginx
+systemctl restart nginx
